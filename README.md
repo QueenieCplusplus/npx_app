@@ -7,6 +7,8 @@ to replace create-react-app
     cd my-app
     npm start
     
+    browse http://localhost:3000/
+    
 
 Creating a new React app in /Users/pintred/Desktop/k-app.
 Installing packages. This might take a couple of minutes.
