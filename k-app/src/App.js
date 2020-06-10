@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 //import logo from './logo.svg';
+import poupou from './poupou.png';
 import './App.css';
 
 
@@ -29,7 +30,13 @@ class App extends Component {
   render(){
 
     return(
+
+      // <img src={poupou} /> className="" alt=""
+     
+
       <div>
+
+        <img src={poupou} alt=''/>
 
         <button onClick ={this.onClickListener}>
            click on me plz
