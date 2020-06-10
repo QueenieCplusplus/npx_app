@@ -19,6 +19,56 @@ Installing react, react-dom, and react-scripts with cra-template...
 
 https://create-react-app.dev/docs/code-splitting/
 
+* Promise
+
+        import React from 'react';
+        import { Component } from 'react';
+
+        class App extends Component {
+
+          onClickListener = () => {
+
+            // import().then(
+
+            // ).catch()
+
+            import('./moduleK')
+              .then(
+
+              ({moduleK}) => {}
+
+              ) /* using Promise*/
+              .catch(
+
+                err => {}
+
+              );
+
+          };
+
+          render(){
+
+            return(
+
+              // <img src={poupou} /> className="" alt=""
+
+
+              <div>
+
+                <img src={poupou} alt=''/>
+
+                <button onClick ={this.onClickListener}>
+                   click on me plz
+                </button>
+
+              </div>
+
+            );
+
+          }
+
+        }
+
 * Deploy on Server
 
 https://create-react-app.dev/docs/deployment/
