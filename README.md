@@ -68,6 +68,11 @@ https://create-react-app.dev/docs/code-splitting/
           }
 
         }
+        
+* Router
+
+        npm install react-router-dom 
+        import {BrowserRouter as R, Switch as SW, Route, Link} 
 
 * Deploy on Server
 
