@@ -92,7 +92,7 @@ https://create-react-app.dev/docs/code-splitting/
                  <R path='/login'>
                   <Login/>
                  </R>
-                 <R path="/">
+                 <R path="/"> #順序很重要，預設為最後一個才是home
                   <Home/> 
                  </R>
                </S>
